@@ -1,0 +1,506 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Insights2022}{report}{}
+      \name{author}{1}{}{%
+        {{hash=2b878e946a42eadaa83725c54f36efa9}{%
+           family={{Global Market Insights}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b878e946a42eadaa83725c54f36efa9}
+      \strng{fullhash}{2b878e946a42eadaa83725c54f36efa9}
+      \strng{bibnamehash}{2b878e946a42eadaa83725c54f36efa9}
+      \strng{authorbibnamehash}{2b878e946a42eadaa83725c54f36efa9}
+      \strng{authornamehash}{2b878e946a42eadaa83725c54f36efa9}
+      \strng{authorfullhash}{2b878e946a42eadaa83725c54f36efa9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{262}
+      \field{title}{Printed Circuit Board (PCB) Market Size By PCB Type, COVID-19 Impact Analysis, Regional Outlook, Growth Potential, Price Trends, Competitive Market Share \& Forecast, 2022 - 2030}
+      \field{type}{resreport}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gminsights.com/industry-analysis/printed-circuit-board-pcb-market
+      \endverb
+      \verb{url}
+      \verb https://www.gminsights.com/industry-analysis/printed-circuit-board-pcb-market
+      \endverb
+    \endentry
+    \entry{Canal_Marques_2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bbe04b2bfae4e281d3eb4e00d9539319}{%
+           family={Marques},
+           familyi={M\bibinitperiod},
+           given={André\bibnamedelima Canal},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5e00a1c3b8215b7f7ac93620caf17f02}{%
+           family={Cabrera},
+           familyi={C\bibinitperiod},
+           given={José-Marı́a},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=90481a667d9fac9ee9e0d14bf9da53cd}{%
+           family={Fraga\bibnamedelima Malfatti},
+           familyi={F\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Célia},
+           giveni={C\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{dbbd056eae4777d22c33a157e83a903d}
+      \strng{fullhash}{dbbd056eae4777d22c33a157e83a903d}
+      \strng{bibnamehash}{dbbd056eae4777d22c33a157e83a903d}
+      \strng{authorbibnamehash}{dbbd056eae4777d22c33a157e83a903d}
+      \strng{authornamehash}{dbbd056eae4777d22c33a157e83a903d}
+      \strng{authorfullhash}{dbbd056eae4777d22c33a157e83a903d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Environmental Management}
+      \field{month}{12}
+      \field{title}{Printed circuit boards: A review on the perspective of sustainability}
+      \field{volume}{131}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{298\bibrangedash 306}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.jenvman.2013.10.003
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/yulel/OneDrive - University of Southampton/PCBs/1-s2.0-S030147971300649X-main.pdf:PDF
+      \endverb
+      \keyw{Environmental problem Waste electrical and electronic equipment Printed circuit boards Solder replacement * Corresponding author. Tel.: þ55 51 84287040; fax E-mail addresses: andrecm@unisinos.br,andre}
+    \endentry
+    \entry{Liu2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=965a67dbc2585f1acc45141ecd91b1bc}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={He},
+           giveni={H\bibinitperiod}}}%
+        {{hash=31999d69db3710c141fdee731b66df18}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=849314b848a20f086ff0e51f7b813be8}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Darren},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b94f3c92d776c5b1e234cb38b7d4be91}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jianzhong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=756f66a7d6f5db4c070e8c03648618cd}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Hongsheng},
+           giveni={H\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=db52eab9d584195c52894f5119a0949a}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Xueliang},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hindawi Limited}%
+      }
+      \strng{namehash}{8e25faaa1859c80fb4f7d52b9fc80b23}
+      \strng{fullhash}{cf40203411fb8c1128ee8169613458f7}
+      \strng{bibnamehash}{8e25faaa1859c80fb4f7d52b9fc80b23}
+      \strng{authorbibnamehash}{8e25faaa1859c80fb4f7d52b9fc80b23}
+      \strng{authornamehash}{8e25faaa1859c80fb4f7d52b9fc80b23}
+      \strng{authorfullhash}{cf40203411fb8c1128ee8169613458f7}
+      \strng{editorbibnamehash}{db52eab9d584195c52894f5119a0949a}
+      \strng{editornamehash}{db52eab9d584195c52894f5119a0949a}
+      \strng{editorfullhash}{db52eab9d584195c52894f5119a0949a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Digital twin (DT), aiming to characterise behaviors of physical entities by leveraging the virtual replica in real time, is an emerging technology and paradigm at the forefront of the Industry 4.0 revolution. The implementation of DT in predictive maintenance has facilitated its growth. As a major component of predictive maintenance, condition monitoring (CM) has great potential to combine with DT. To describe the state-of-the-art of DT-driven CM, this paper delivers a systematic review on the theoretical and practical development of DT in advancing CM. The evolution of concepts, main research areas, applied domains, and related key technologies are summarised. The driver of DT for CM is detailed in three aspects: data support, capability enhancement, and maintenance mode shift. The implementation process of DT-driven CM is introduced from the classification of DT modelling and the extension of monitoring algorithms. Finally, current challenges and opportunities for future research are discussed especially concerning the barriers and gaps in data management, high-fidelity modelling, behavior characterisation, framework standardisation, and uncertainty quantification.}
+      \field{day}{30}
+      \field{journaltitle}{Journal of Sensors}
+      \field{month}{7}
+      \field{title}{Digital Twin-Driven Machine Condition Monitoring: A Literature Review}
+      \field{volume}{2022}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1155/2022/6129995
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/yulel/OneDrive - University of Southampton/PCBs/Digital_Twin-Driven_Machine_Condition_Monitoring_A.pdf:PDF
+      \endverb
+    \endentry
+    \entry{IIPEC2020}{report}{}
+      \name{author}{1}{}{%
+        {{hash=71f4140df765f08fe2cafe44c200cee9}{%
+           family={{Institute for Interconnecting and Packaging Electronic Circuits}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{71f4140df765f08fe2cafe44c200cee9}
+      \strng{fullhash}{71f4140df765f08fe2cafe44c200cee9}
+      \strng{bibnamehash}{71f4140df765f08fe2cafe44c200cee9}
+      \strng{authorbibnamehash}{71f4140df765f08fe2cafe44c200cee9}
+      \strng{authornamehash}{71f4140df765f08fe2cafe44c200cee9}
+      \strng{authorfullhash}{71f4140df765f08fe2cafe44c200cee9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isrn}{978-1-951577-09-4}
+      \field{pagetotal}{76}
+      \field{title}{IPC-6012E: Qualification and Performance Specification for Rigid Printed Boards}
+      \field{type}{techreport}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://shop.ipc.org/automotive-general-electronics-medical-space-and-defense/standards/6012-0-e-english
+      \endverb
+      \verb{url}
+      \verb https://shop.ipc.org/automotive-general-electronics-medical-space-and-defense/standards/6012-0-e-english
+      \endverb
+    \endentry
+    \entry{Ehrler2002}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6774f042b341115a7b79c10f7eaa7820}{%
+           family={Ehrler},
+           familyi={E\bibinitperiod},
+           given={Sylvia},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald}%
+      }
+      \strng{namehash}{6774f042b341115a7b79c10f7eaa7820}
+      \strng{fullhash}{6774f042b341115a7b79c10f7eaa7820}
+      \strng{bibnamehash}{6774f042b341115a7b79c10f7eaa7820}
+      \strng{authorbibnamehash}{6774f042b341115a7b79c10f7eaa7820}
+      \strng{authornamehash}{6774f042b341115a7b79c10f7eaa7820}
+      \strng{authorfullhash}{6774f042b341115a7b79c10f7eaa7820}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{reinforced epoxy known as FR-4. However, there is a Due to the increasing requirements of PCBs in terms of their Currently, the most widely used growing demand for new base materials, both for high reliability, complexity, electrical characteristics and new Printed Circuit Board (PCB) base performance and green applications. The term high methods of assembly, the base material suppliers have made material is the glass reinforced performance has been used to mean various things at various developments of the epoxy based resin systems. For epoxy known as FR-4. To improve different times and thus needs to be clarified. The following high-Tg FR-4 materials the main development has been to the electrical or the can be considered as high performance PCBs Guiles (1998) increase the Tg. An increased Tg usually leads to a higher}
+      \field{journaltitle}{Circuit World}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{Properties of new printed circuit board base materials}
+      \field{volume}{28}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{38\bibrangedash 45}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1108/03056120210431534
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/yulel/OneDrive - University of Southampton/PCBs/03056120210431534.pdf:PDF
+      \endverb
+      \keyw{Introduction Materials with a modified or a Printed circuit boards,Resins}
+    \endentry
+    \entry{Kasemsadeh2017}{report}{}
+      \name{author}{3}{}{%
+        {{hash=53c66d02fba5886e8736b6e1d65de13b}{%
+           family={Kasemsadeh},
+           familyi={K\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=783961fef219d676fba68bf86068894c}{%
+           family={Heng},
+           familyi={H\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=afccddc7353077a5ae34c2f43319182f}{%
+           family={Ashara},
+           familyi={A\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Texas Instruments}%
+      }
+      \strng{namehash}{fcab2ef0f09a9824a31ffc92bb132e3d}
+      \strng{fullhash}{fcab2ef0f09a9824a31ffc92bb132e3d}
+      \strng{bibnamehash}{fcab2ef0f09a9824a31ffc92bb132e3d}
+      \strng{authorbibnamehash}{fcab2ef0f09a9824a31ffc92bb132e3d}
+      \strng{authornamehash}{fcab2ef0f09a9824a31ffc92bb132e3d}
+      \strng{authorfullhash}{fcab2ef0f09a9824a31ffc92bb132e3d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Power hungry electronic components such as CPUs, GPUs, or FPGAs, as well as voltage regulators heat up during operation. Some applications require ambient air temperature measurements while others need to measure the temperature of a nearby component on the PCB. Measuring ambient air temperature with a surface mount technology (SMT) device is challenging due to the thermal influence of other components within the system. In other systems, in which the temperature of a component needs to be measured, ambient air temperature can influence and degrade the measurement accuracy. The system designer needs to make certain design decisions regarding both package type and PCB layout when integrating a temperature sensor. This application note provides recommendations to system designers and explains methods for improving the accuracy of the temperature point being measured. The Recommendations are provided both for air temperature measurements and for component temperature measurement. The report details layout techniques, device orientation, and best practices for mounting.}
+      \field{title}{Temperature sensors: PCB guidelines for surface mount devices}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb :C\:/Users/yulel/OneDrive - University of Southampton/PCBs/snoa967a.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/an/snoa967a/snoa967a.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/an/snoa967a/snoa967a.pdf
+      \endverb
+      \keyw{SNOA967,SNOA967A}
+    \endentry
+    \entry{Vaseliou2017}{report}{}
+      \name{author}{2}{}{%
+        {{hash=3bbce7607ad75ca4bd08023e17565da6}{%
+           family={Vaseliou},
+           familyi={V\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5cd7323c3eed2e74c36438e950c9b1aa}{%
+           family={Denton},
+           familyi={D\bibinitperiod},
+           given={Emmy},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Texas Instruments}%
+      }
+      \strng{namehash}{7d0c23b0a180732b467d9dcbd5f6f87a}
+      \strng{fullhash}{7d0c23b0a180732b467d9dcbd5f6f87a}
+      \strng{bibnamehash}{7d0c23b0a180732b467d9dcbd5f6f87a}
+      \strng{authorbibnamehash}{7d0c23b0a180732b467d9dcbd5f6f87a}
+      \strng{authornamehash}{7d0c23b0a180732b467d9dcbd5f6f87a}
+      \strng{authorfullhash}{7d0c23b0a180732b467d9dcbd5f6f87a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many high-performance systems rely on accurate temperature measurements to optimize performance and ensure reliable operation. The temperature readings can be used to adjust temperature-sensitive elements, such as A/D converters and high-end displays, or the readings may be used to monitor system health and prevent overheating. While modern processors have built-in temperature measurement, these are generally not as accurate as an external temperature sensor and overall system performance may suffer if an external sensor is not used. As system density increases, the use of external sensors that measure many temperature points also help simplify the system design for thermal management design. This application report discusses the design considerations for successfully sensing the temperature of a highly integrated system using a digital remote temperature sensor. The application report specifically focuses on the TMP468, but the information can be applied to other digital remote temperature sensors such as the TMP431, TMP451, and TMP461. Remote temperature sensors sense the junction temperature of either a NPN or PNP bipolar junction transistor (BJT). The BJT can be an integrated transistor in a MCU, GPU, ASIC, FPGA, or a discrete transistor such as the common 2N3904 NPN transistor or 2N3906 PNP transistor. The use of remote temperature sensors is common in telecom equipment (switches and routers), servers, automotive infotainment, Advanced Driver-Assistance Systems (ADAS), and high-end displays. System design can be quite challenging in highly integrated systems because noise and BJT process variations can cause errors. This application report gives an overview of remote temperature sensors, discusses error sources, and shows how to mitigate system impact of sensor errors. Layout considerations are also discussed.}
+      \field{title}{Optimizing Remote Temperature Sensor Design}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb :C\:/Users/yulel/OneDrive - University of Southampton/PCBs/sboa173a.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/an/sboa173a/sboa173a.pdf?ts=1663496868261
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/an/sboa173a/sboa173a.pdf?ts=1663496868261
+      \endverb
+      \keyw{SBOA173,SBOA173A}
+    \endentry
+    \entry{Bagavathiappan2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=cd9907f919f257f2b25c4f2e10643ec0}{%
+           family={Bagavathiappan},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=917ce3bcd87483715eb57c85770684d8}{%
+           family={Lahiri},
+           familyi={L\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=553458913666c620d8b1835fb3e7b77f}{%
+           family={Saravanan},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e5ac7667287679cb56f70f5e53f6370c}{%
+           family={Philip},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=58460c7124ed95156fbe4bc1f54707f4}{%
+           family={Jayakumar},
+           familyi={J\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{11f007e768e26fbecf28811a8d517dfb}
+      \strng{fullhash}{fbd40140f8c6356f31b85f75829ba274}
+      \strng{bibnamehash}{11f007e768e26fbecf28811a8d517dfb}
+      \strng{authorbibnamehash}{11f007e768e26fbecf28811a8d517dfb}
+      \strng{authornamehash}{11f007e768e26fbecf28811a8d517dfb}
+      \strng{authorfullhash}{fbd40140f8c6356f31b85f75829ba274}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Infrared thermography (IRT) is a non-contact condition monitoring (CM) tool. We review the advances of IRT for CM of machineries, equipment and processes. Applications in various industries are covered in this critical review. Basics of IRT, experimental procedures and data analysis techniques are reviewed. Sufficient background information for the beginners and non-experts are provided.}
+      \field{day}{24}
+      \field{journaltitle}{Infrared Physics {\&} Technology}
+      \field{month}{3}
+      \field{title}{Infrared thermography for condition monitoring {–} A review}
+      \field{volume}{60}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{35\bibrangedash 55}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/j.infrared.2013.03.006
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/yulel/OneDrive - University of Southampton/PCBs/1-s2.0-S1350449513000327-main.pdf:PDF
+      \endverb
+      \keyw{Infrared thermography Condition monitoring Preventive maintenance Deformation monitoring Thermal anomaly Quality assurance Head,Smart Materials Section,Radiography & Thermography Section,Non-Destructive Evaluation Division,Metallurgy and Materials}
+      \warn{\item Overwriting field 'month' with month value from field 'date' for entry 'Bagavathiappan2013'}
+    \endentry
+    \entry{Sarawade2019}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=4168013b2710d6b826ef28a114cc732c}{%
+           family={Sarawade},
+           familyi={S\bibinitperiod},
+           given={Akshay},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bbd102d44f29de42f61390341cf244b4}{%
+           family={Charniya},
+           familyi={C\bibinitperiod},
+           given={Nadir},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{85864fdfaece2f99bde5967541c5af31}
+      \strng{fullhash}{85864fdfaece2f99bde5967541c5af31}
+      \strng{bibnamehash}{85864fdfaece2f99bde5967541c5af31}
+      \strng{authorbibnamehash}{85864fdfaece2f99bde5967541c5af31}
+      \strng{authornamehash}{85864fdfaece2f99bde5967541c5af31}
+      \strng{authorfullhash}{85864fdfaece2f99bde5967541c5af31}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Developing a system which can be used for detection of faulty Integrated circuits (ICs) is one of the major challenge in electronic industry. Heating in ICs due to various reasons which may lead to degradation of performance and can cause serious hazardous effects in Printed Circuit Boards (PCB). Thermal image processing is one of the best non-contact, non-invasive method which can be used for IC fault detection. The paper aims towards detection of faulty ICs in PCB with help of thermal imaging camera and image processing techniques. Thermal images of sequence detector circuit for different fault conditions are collected. Image matching is achieved by comparing features of training images and test image using Speeded-Up Robust Features (SURF) algorithm. The system will indicate image belongs to particular fault class. The proposed method detects and classify possible faulty IC conditions with improved accuracy and can also help in early prevention remotely before complete circuit failure.}
+      \field{booktitle}{2019 International Conference on Nascent Technologies in Engineering (ICNTE 2019)}
+      \field{title}{Detection of Faulty Integrated Circuits in PCB With Thermal Image Processing}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb :C\:/Users/yulel/OneDrive - University of Southampton/PCBs/Detection_of_Faulty_Integrated_Circuits_in_PCB_with_Thermal_Image_Processing.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/8946061
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/8946061
+      \endverb
+      \keyw{IC fault detection,SURF,thermal imaging}
+    \endentry
+    \entry{Sousa1991}{thesis}{}
+      \name{author}{2}{}{%
+        {{hash=c44bb403624249205b193448edea9a91}{%
+           family={Sousa},
+           familyi={S\bibinitperiod},
+           given={Flávio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d2eb27a57aa8aabbd804849167f6449e}{%
+           family={Oka},
+           familyi={O\bibinitperiod},
+           given={Maurício},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of São Paulo}%
+      }
+      \strng{namehash}{0030fbb3a6d87e4d6f5c63acb2f8b29a}
+      \strng{fullhash}{0030fbb3a6d87e4d6f5c63acb2f8b29a}
+      \strng{bibnamehash}{0030fbb3a6d87e4d6f5c63acb2f8b29a}
+      \strng{authorbibnamehash}{0030fbb3a6d87e4d6f5c63acb2f8b29a}
+      \strng{authornamehash}{0030fbb3a6d87e4d6f5c63acb2f8b29a}
+      \strng{authorfullhash}{0030fbb3a6d87e4d6f5c63acb2f8b29a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PCB temperature measurement for SMT by thermocouple}
+      \field{type}{resreport}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb :C\:/Users/yulel/OneDrive - University of Southampton/PCBs/FileB4.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.lsi.usp.br/~dmi/workshop2001/Files/FileB4.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.lsi.usp.br/~dmi/workshop2001/Files/FileB4.pdf
+      \endverb
+    \endentry
+    \entry{Lam2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2f870b331b78c40d652e7c169b33f730}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Tin\bibnamedelima Lun},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers ({IEEE})}%
+      }
+      \strng{namehash}{2f870b331b78c40d652e7c169b33f730}
+      \strng{fullhash}{2f870b331b78c40d652e7c169b33f730}
+      \strng{bibnamehash}{2f870b331b78c40d652e7c169b33f730}
+      \strng{authorbibnamehash}{2f870b331b78c40d652e7c169b33f730}
+      \strng{authornamehash}{2f870b331b78c40d652e7c169b33f730}
+      \strng{authorfullhash}{2f870b331b78c40d652e7c169b33f730}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As the environmental concern is being raised over residues of lead, the trend of transferring from the conventional lead-based soldering to lead-free soldering is overwhelming. Lead-free solders require the peak temperature to be about 30 degrees Celsius higher than lead-based solders, which induce a narrower margin between the highest melting temperatures of lead-free solders and the heat-resistant temperatures of electronic components. As a result, the accuracy of temperature control of reflow systems needs to meet a higher standard to maintain the solder quality. Whereas, the conventional control process of the onboard temperature is open-loop, which cannot achieve the required accuracy. A closed-loop method by using an array of thermal image cameras for temperature monitoring is too expensive. In order to provide a low-cost and accurate temperature control solution for reflow systems, a cost-effective non-contact temperature approximation and control system is proposed in this article. The proposed temperature approximation is achieved based on a machine learning method with multiple-input single-output strategies to get a relationship between the temperatures near the PCBs and the onboard temperature. The proposed system controls the temperature in a real-time fuzzy logic algorithm to achieve a more accurate control result. The experiment results reveal the feasibility of the proposed temperature approximation and control system. INDEX TERMS Control systems, automation, temperature measurement, temperature control.}
+      \field{journaltitle}{{IEEE} Access}
+      \field{title}{Low-Cost Non-Contact {PCBs} Temperature Monitoring and Control in a Hot Air Reflow Process Based on Multiple Thermocouples Data Fusion}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{123566\bibrangedash 123574}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/access.2020.3036527
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/yulel/OneDrive - University of Southampton/PCBs/Low-Cost_Non-Contact_PCBs_Temperature_Monitoring_and_Control_in_a_Hot_Air_Reflow_Process_Based_on_Multiple_Thermocouples_Data_Fusion.pdf:PDF
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

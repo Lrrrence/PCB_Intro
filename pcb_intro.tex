@@ -1,0 +1,67 @@
+\input{preamble.tex}
+
+\title{PCB Temperature monitoring}
+
+\begin{document}
+
+\onehalfspacing 
+
+% \maketitle
+
+%\vspace*{\fill}
+%\begin{center}{\large\bf Abstract \par}\end{center}
+%\vspace{15pt}
+
+The temperature monitoring of printed circuit boards (PCBs) is a vital aspect of condition monitoring that is yet to be fully explored. Temperature monitoring can be used to identify abnormalities that are indicative of a developing fault, which is particularly important for safety critical applications. As the aerospace and automotive industries move towards electrification, data-driven predictive maintenance is becoming increasingly important. On-line, real-time health monitoring systems can be used to assess the condition of individual components as well as the health of the system as a whole. Systems such as these will become an ever greater part of product life-cycle management, where condition monitoring is moving to eliminate unnecessary and wasted-costs associated with over maintaining healthy machines, based on operating hours alone. The global PCB market was worth \$75~billion in 2021, and is expected to rise to \$120~billion in 2030 \cite{Insights2022}, which highlights the importance of this area. The low cost of mass produced PCBs means that parts are often thrown away rather than repaired when a fault is detected, which contributes significantly to e-waste~\cite{Canal_Marques_2013}. If the life-cycles of these systems can be extended, the amount of waste produced can be reduced. The use of digital-twins in the aerospace industry, an emerging technology at the forefront of the `Industry 4.0' revolution, will require additional data streams such as these to improve the accuracy of their models~\cite{Liu2022}.
+
+Improved temperature monitoring is particularly important for IPC (Institute for Interconnecting and Packaging Electronic Circuits) class 3 PCBs (as defined by \href{https://shop.ipc.org/automotive-general-electronics-medical-space-and-defense/standards/6012-0-e-english}{IPC-6012E Qualification and Performance Specification for Rigid Printed Boards}), where performance is critical and no down-time is tolerated. There is often frequent inspection of these systems with stringent standards. This class of boards is commonly used in military applications, medical equipment, and the aerospace industry. Class 3/A covers space and military avionics, and represents the highest standard in PCB manufacturing \cite{IIPEC2020}.
+
+The primary heat source of a PCB is typically the microcontroller or microprocessor. High frequency circuits (e.g.~operating at radio frequencies) often generate a lot of heat due to their high power consumption. Excessive temperatures are often caused by component malfunction, but are also the result of design oversights, or manufacturing errors. Excessively high temperature can cause the different layers of a PCB to expand and contract, where the dielectric layers and conductive metal layers change at different rates due to their differing material properties. This can irreversibly damage structural integrity. This also applies to circuit patterns, where temperature fluctuations can cause connections to fail, and electrical contacts and terminations to degrade. Oxidation of the dielectric layer can occur at high temperatures if a protective laminate coating is not used, which can cause a loss of transmission lines and an increased dissipation factor. During the design stage, relative thermal index (RTI) of the materials used and the maximum operating temperature (MOT) of the board as a whole are considered. PCBs specifically designed for operation at high temperatures are referred to as `high Tg', when the glass transition temperature (Tg) of the board is >150\unit{\degreeCelsius}. Typical PCB materials for high temperature may include high-Tg FR4, Nelco 4000-13, and Isola FR408~\cite{Ehrler2002}. The industry is moving towards the use of high Tg materials because of the restriction of hazardous substances (RoHS), where high temperatures are needed for lead-free solder to flow.
+
+\clearpage
+
+The temperature sensors used on PCBs fall into three categories: ambient, local, and remote. Ambient sensors are placed away from the main components of the board, often separated from the GND plane, and are used to measure the ambient air temperature around the board. Local sensors are temperature sensing chips integrated into the circuit. Digital temperature sensors have replaced positive temperature coefficient (PTC) thermistors (often used in place of fuses for circuit protection), which exhibit high resistance when high current is flowing and temperatures increase. Along with negative temperature coefficient (NTC) thermistors, they can be used as temperature sensors by measuring changes in resistance. Digital temperature sensors (such as the \href{https://www.ti.com/product/TMP107#features}{TMP107}) typically offer higher accuracy than PTC/NTC thermistors, and can be daisy chained to provide a distributed monitoring system across a board. It is suggested to place these sensors on the bottom side of a PCB, in areas of known heat sources, or as close to the heat sources as possible on the main side across a shared GND plane \cite{Kasemsadeh2017}. Remote digital temperature sensors such as the \href{https://www.ti.com/product/TMP468}{TMP468} measure temperature at multiple bipolar junction transistors (BJT), as well as at a local sensor at the chip \cite{Vaseliou2017}. The data from these measurement systems is often used to dictate system performance, control fan speeds, or shutdown the system if excessive heat is detected. 
+
+Infrared thermography is often used for condition monitoring applications~\cite{Bagavathiappan2013}. Although not necessarily suitable for permanent installation due to space and power constraints, thermal cameras can be used to monitor the temperature of board components in the design stage~\cite{Sarawade2019}. As the metal elements of the boards (solder, leads, connectors, etc.) are highly reflective to infrared light, it is necessary to cover the board with something (e.g. spray paint) that provides a consistent emissivity in order for thermal cameras to work effectively across all components. Thermocouples are also used in the design stage to temporarily monitor temperature to evaluate soldering quality \cite{Sousa1991} during the hot air reflow soldering process. Lam~\cite{Lam2021} has demonstrated a regression method to generate the relationship between temperatures near the PCB board and onboard temperatures using neural networks, to allow for non-contact monitoring in the reflow process.
+
+
+% A very good guide on why monitoring is important, what are the effects of high temperatures: \href{https://www.mclpcb.com/blog/pcb-temperature/}{PCB TEMPERATURE GUIDE}
+
+% \href{https://resources.altium.com/p/using-thermal-camera-pcb-diagnostics}{Thermal cameras for PCBs}
+
+% \href{https://resources.altium.com/p/temperature-sensor-project-analog-temperature-sensor-ics}{analog temperature sensor integrated circuits} - great source for a range of sensor types.
+
+% Silicon bandgap temperature sensor???? (BJT related, same as remote sensor described above)
+
+% Yan \textit{et al.} has demonstrated a wireless passive temperature sensor that measures the change in dielectric constant of a PCB substrate through a change in resonant frequency \cite{Yan2018}.
+
+% Ramakrishnan \textit{et al.} has demonstrated a 'life consumption monitoring' approach by measuring the effect of temperature and vibration on PCB solder joints, and calculating the remaining life of the system \cite{Ramakrishnan2003}.  
+
+% To determine the operating temperature, simply multiply the component's power consumption by its thermal impedance. Temperature of a component in terms of thermal impedance:
+% %
+% \begin{equation}
+%     T~[\unit{\degreeCelsius}]=(Z~in~\unit{\degreeCelsius}/W)\times(P~in~W)
+% \end{equation}
+
+% Keywords:
+% \begin{itemize}
+%     \item Predictive maintenance 
+%     \item identify a significant change which is indicative of a developing fault.
+%     \item on-line
+%     \item real-time
+%     \item failing components, especially degrading electrical contacts and terminations.
+%     \item condition monitoring eliminates unnecessary-and wasted-costs associated with over maintaining healthy machines based on the static metric of operating hours alone.
+%     \item safety critical
+%     \item aerospace/automotive electrification
+%     \item digital twins (simulation in real time using FE model), virtual model. Emerging technology and paradigm at the forefront of the Industry 4.0 revolution.
+%     \item Novel health monitoring systems to assess the condition of individual components as well as the health of the whole of the system.
+%     \item product life-cycle management
+%     \item service life
+%     \item data-driven
+% \end{itemize}
+
+\clearpage
+
+\printbibliography
+
+\end{document}

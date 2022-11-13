@@ -1,0 +1,126 @@
+\documentclass{article}
+%\usepackage[document]{ragged2e}
+%\usepackage[utf8]{inputenc}
+\usepackage[style=numeric,sorting=none]{biblatex}
+\addbibresource{pcbrefs.bib}
+%\addbibresource{References.bib}
+\usepackage{gensymb}
+\usepackage{color,soul}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{tabu}
+\usepackage{tabulary}
+\usepackage{booktabs} %better tables
+\usepackage{moreverb}
+\usepackage{xurl} %break urls at alphanumeric characters
+\usepackage{textcomp}
+\usepackage{siunitx}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage[raggedright]{titlesec} % stops headings from hyphenating
+\usepackage{geometry} % to change margins
+\usepackage{pdflscape}
+\usepackage{pgfgantt}
+\usepackage{standalone}
+\usepackage{typearea} 
+\usepackage{parskip}
+\usepackage{notoccite} % fix citation order
+\usepackage{pdfpages}
+\usepackage[margin=10pt,font=small,labelfont=bf,labelsep=endash]{caption}
+\usepackage{fancyhdr} %headings
+\usepackage{lastpage} %find last page
+%\usepackage{mlmodern} %use new font
+\usepackage{adjustbox} %for resizing tables
+\usepackage{makecell} %new lines within table cells
+\usepackage{wasysym} %for diameter symbol
+\usepackage{microtype}
+\usepackage{unicode-math}%for setting font
+%\usepackage[lofdepth,lotdepth]{subfig}
+\usepackage[list=true]{subcaption}
+\usepackage{titlesec}
+\usepackage{matlab-prettifier} %for matlab code in appendix
+\usepackage{afterpage}
+\usepackage{enumitem}
+\usepackage{emptypage}
+\usepackage{url}
+\urlstyle{same}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+\setcounter{secnumdepth}{4}
+
+%to reduce hyphenation
+\pretolerance=5000
+\tolerance=9000
+\emergencystretch=0pt
+\hyphenpenalty=10000
+\exhyphenpenalty=100
+\righthyphenmin=4
+\lefthyphenmin=4
+
+% \setmainfont[%
+% Ligatures={TeX,Common},
+% Numbers={Proportional,Lining},
+% Kerning=On,
+% ]{Libertinus Serif}
+
+% \setmathfont{Libertinus Math}
+% \setmonofont{Libertinus Mono}
+
+% make macro for adding units to equations
+\makeatletter
+\providecommand\add@text{}
+\newcommand\tagaddtext[1]{%
+  \gdef\add@text{#1\gdef\add@text{}}}% 
+\renewcommand\tagform@[1]{%
+  \maketag@@@{\llap{\add@text\quad}(\ignorespaces#1\unskip\@@italiccorr)}%
+}
+\makeatother
+
+% %adjust chapter titles
+% \usepackage{titlesec}
+% \titleformat{\chapter}[display]
+% {\bfseries\Large}
+% {\filleft\MakeUppercase{\chaptertitlename} \Huge\thechapter}
+% {4ex}
+% {\titlerule
+% \vspace{1.5ex}%
+% \filright}
+% [\vspace{2ex}%
+% \titlerule]
+
+\usepackage[breaklinks,colorlinks,bookmarksopen,bookmarksnumbered,citecolor=sotonRed,urlcolor=sotonMarineBlue,linkcolor=sotonRed]{hyperref}%load hyperref last
+\usepackage[capitalize,noabbrev]{cleveref} % for linking multiple tables
+
+\definecolor{barblue}{RGB}{153,204,254}
+\definecolor{groupblue}{RGB}{51,102,254}
+\definecolor{linkred}{RGB}{165,0,33} 
+\definecolor{sotonMarineBlue}{RGB}{1,67,89} % Soton marine blue (P 7469C)
+\definecolor{sotonGrey}{RGB}{153,153,166} % Soton grey (P 443C)
+\definecolor{sotonRed}{RGB}{171,18,16} % Soton Red (P 484C)
+
+\geometry{a4paper, left=30mm, right=30mm}
+\usepackage{setspace}
+
+% %remove date number from date
+% \renewcommand{\today}{\ifcase \month \or January\or February\or March\or %
+% April\or May \or June\or July\or August\or September\or October\or November\or %
+% December\fi, \number \year} 
+\usepackage{libertinus}
+
+% fix % in bib abstracts
+\DeclareSourcemap{
+  \maps[datatype = bibtex]{
+    \map{
+       \step[fieldsource = abstract,
+          match = \regexp{([^\\])\%},
+          replace = \regexp{$1\\\%}]
+    }
+  }
+}
+
